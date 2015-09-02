@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(209, 215, 211);
+  font-family: Tahoma, Geneva, sans-serif
+}
+
+.jumbotron {
+  background: url(https://images.unsplash.com/photo-1438755582627-221038b62986?q=80&fm=jpg&s=ce1a984f1ac11887a5d5569ebbce53fb);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+  text-indent: 40px;
+
+}
+
+.jumbotron img {
+  height: 180px;
+  width: 180px;
+  position:absolute;
+  top: 210px;
+  left: 253px;
+}
+
+.container {
+  max-width: 920px;
+  margin:auto;
+  width: 80%;
+  border-style: solid;
+  border-width: thick;
+  border-color: rgb(255, 255, 255);
+  height: 1200px;
+  background-color: rgb(235, 233, 233);
+}
+
+.social li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px 0 10px;
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.quote {
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+.quote h5 {
+  font-style:italic;
+  font-size: 30px;
+  color: white;
+  margin: 0 auto;
+  padding-left: 250px;
+  padding-top: 20px;
+  font-family: cursive;
+}
+
+.social ul {
+  padding-right: 230px;
+}
+
+.social img {
+  height: 60px;
+  width: 60px;
+}
+
+.nav {
+  text-align: right;
+  padding-top: 13px;
+  padding-bottom: 30px;
+}
+
+.nav ul li {
+  display: inline;
+  padding: 10px 22px 10px 25px;
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(142, 205, 120);
+  border-radius: 10px 50px;
+}
+
+.nav ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.column-left {
+  float: left;
+  padding-top: 20px;
+  width: 25%;
+}
+
+.column-left input#mail {
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: thin;
+}
+
+.column-left p {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.column-right {
+  float: right;
+  padding-top: 15px;
+  width: 25%;
+}
+
+.column-right h5 {
+  text-align: center;
+}
+
+.column-right a {
+  font-size: 11px;
+}
+
+.column-center {
+  display: inline-block;
+  width: 50%;
+}
+
+.column-center img {
+  height: 375px;
+  width: 375px;
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width:100%;
+  background-color: #333;
+  color: #fff;
+  padding: 2px 0;
+  border-color: rgb(237, 237, 237);
+  background-color: rgb(5, 43, 10)
+}
+
+.footer p {
+  float: right;
+  padding-right:15px;
+}
