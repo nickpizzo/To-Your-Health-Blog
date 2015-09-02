@@ -16,13 +16,24 @@ body {
 
 }
 
-.jumbotron img {
-  height: 180px;
-  width: 180px;
-  position:absolute;
-  top: 210px;
-  left: 253px;
+.nav img {
+  height: 140px;
+  width: 140px;
+  float: left;
+  margin-top: 0;
+
 }
+
+.nav {
+
+}
+
+.content {
+  clear: both;
+}
+
+
+
 
 .container {
   max-width: 920px;
@@ -33,6 +44,7 @@ body {
   border-color: rgb(255, 255, 255);
   height: 1200px;
   background-color: rgb(235, 233, 233);
+
 }
 
 .social li {
@@ -74,14 +86,14 @@ body {
 }
 
 .nav {
-  text-align: right;
-  padding-top: 13px;
+  text-align: center;
+
   padding-bottom: 30px;
 }
 
 .nav ul li {
   display: inline;
-  padding: 10px 22px 10px 25px;
+  padding: 5px 22px 10px 5px;
   font-weight: bold;
   color: rgb(88, 88, 88);
   text-transform: uppercase;
